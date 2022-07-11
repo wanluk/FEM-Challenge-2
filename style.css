@@ -89,4 +89,93 @@ body {
     background-color: var(--secondary-grayish-blue);
     font-family: "Barlow Semi Condensed";
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-gap: 24px;
+
+}
+
+article {
+    width: 327px;
+    box-sizing: border-box;
+    padding-left: 32px;
+    padding-top: 26px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    border-radius: 8px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    align-items: center;
+}
+
+
+.testimonial-one {
+    background-color: var(--primary-violet);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 199px 0px;
+    color: var(--primary-white);
+    margin-top: 71px;
+}
+
+.testimonial-one>.testimonial-flex>.lower-text-paragraph {
+    margin-top: 40px;
+}
+
+.testimonial-two {
+    background-color: var(--primary-dark-grayish-blue);
+    color: var(--primary-white);
+}
+
+.testimonial-three {
+    background-color: var(--primary-white);
+    color: var(--primary-dark-grayish-blue);
+}
+
+.testimonial-four {
+    background-color: var(--primary-blackish-blue);
+    color: var(--secondary-grayish-blue);
+}
+
+.testimonial-five {
+    background-color: var(--primary-white);
+    color: var(--primary-dark-grayish-blue);
+}
+
+.testimonial-grid img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 13px;
+}
+
+.graduate-status {
+    font-size: 11px;
+    opacity: 50%;
+}
+
+.upper-text-paragraph {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.lower-text-paragraph {
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 18px;
+    opacity: 50%;
 }
