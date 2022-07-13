@@ -91,9 +91,10 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     box-sizing: border-box;
 }
+
+
 
 .testimonial-grid {
     display: grid;
@@ -187,7 +188,6 @@ h2 {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
     }
     
     .testimonial-grid{
@@ -219,4 +219,5 @@ h2 {
         grid-column-start: 2;
         grid-column-end: 4;
     }
+
 }
