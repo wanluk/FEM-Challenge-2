@@ -122,7 +122,7 @@ article {
 
 .testimonial-one {
     background-color: var(--primary-violet);
-    background-image: url(/images/bg-pattern-quotation.svg);
+    background-image: url(./images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: 199px 0px;
     color: var(--primary-white);
